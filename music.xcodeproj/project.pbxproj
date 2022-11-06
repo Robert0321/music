@@ -13,6 +13,9 @@
 		E10B6B14290565E100A7510A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10B6B12290565E100A7510A /* Main.storyboard */; };
 		E10B6B16290565E600A7510A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10B6B15290565E600A7510A /* Assets.xcassets */; };
 		E10B6B19290565E600A7510A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10B6B17290565E600A7510A /* LaunchScreen.storyboard */; };
+		E1AF5B9B2907DEA700D6156D /* Beyond Mediocrity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1AF5B982907DEA700D6156D /* Beyond Mediocrity.mp3 */; };
+		E1AF5B9C2907DEA700D6156D /* Talented.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1AF5B992907DEA700D6156D /* Talented.mp3 */; };
+		E1AF5B9D2907DEA700D6156D /*  Somewhere in time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1AF5B9A2907DEA700D6156D /*  Somewhere in time.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E10B6B15290565E600A7510A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E10B6B18290565E600A7510A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E10B6B1A290565E600A7510A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AF5B982907DEA700D6156D /* Beyond Mediocrity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Beyond Mediocrity.mp3"; path = "../../../Downloads/Beyond Mediocrity.mp3"; sourceTree = "<group>"; };
+		E1AF5B992907DEA700D6156D /* Talented.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Talented.mp3; path = ../../../Downloads/Talented.mp3; sourceTree = "<group>"; };
+		E1AF5B9A2907DEA700D6156D /*  Somewhere in time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " Somewhere in time.mp3"; path = "../../../Downloads/ Somewhere in time.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				E10B6B15290565E600A7510A /* Assets.xcassets */,
 				E10B6B17290565E600A7510A /* LaunchScreen.storyboard */,
 				E10B6B1A290565E600A7510A /* Info.plist */,
+				E1AF5B9A2907DEA700D6156D /*  Somewhere in time.mp3 */,
+				E1AF5B982907DEA700D6156D /* Beyond Mediocrity.mp3 */,
+				E1AF5B992907DEA700D6156D /* Talented.mp3 */,
 			);
 			path = music;
 			sourceTree = "<group>";
@@ -126,7 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E10B6B19290565E600A7510A /* LaunchScreen.storyboard in Resources */,
+				E1AF5B9D2907DEA700D6156D /*  Somewhere in time.mp3 in Resources */,
+				E1AF5B9B2907DEA700D6156D /* Beyond Mediocrity.mp3 in Resources */,
 				E10B6B16290565E600A7510A /* Assets.xcassets in Resources */,
+				E1AF5B9C2907DEA700D6156D /* Talented.mp3 in Resources */,
 				E10B6B14290565E100A7510A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +307,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
